@@ -1,0 +1,29 @@
+1. WAP to print “Hello World” using C++
+-#include<iostream>
+using namespace std;
+class A{
+	public:
+		hello()
+		{
+	cout<<"Hello World";
+}
+};
+main()
+{
+	A obj;
+	obj.hello();
+}
+2. What is OOP? List OOP concepts 
+-OOP means Object-Oriented Programming
+-Objects contain data, referred to as attributes or properties, and methods. OOP allows objects to interact with each other using four basic principles: encapsulation, inheritance, polymorphism, and abstraction. These four OOP principles enable objects to communicate and collaborate to create powerful applications.
+3. What is the difference between OOP and POP? 
+- Parameter	OOP	POP
+Definition	This type of programming language uses objects and classes for creating models. 	This programming language uses a step-by-step approach for breaking down a task into a collection of routines and variables by following a sequence of instructions.
+Abbreviation	Object-Oriented Programming	Procedure Oriented Programming
+Approach	Bottom-up approach	Top-down approach
+Polymorphism	Method overloading and overriding are used in OOP to achieve polymorphism.	It doesn’t support polymorphism.
+Inheritance	Supports	Do not support
+Code Reusability	Supports 	Don’t support
+Security	Data handling is possible in OOP due to programming.	It is less secure than OOP.
+Problem-Solving	Used for solving big problems.	Not suitable for big problems.
+Example	C++, JAVA, C#, .NET	C, FORTRAN                                     
