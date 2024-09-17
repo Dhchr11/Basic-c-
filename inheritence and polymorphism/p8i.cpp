@@ -1,0 +1,41 @@
+//8. Write a program to Mathematic operation like Addition, Subtraction, Multiplication, Division Of two number using different 
+//parameters and Function Overloading 
+#include <iostream>
+using namespace std;
+class Calculator
+{
+public:
+    // Function to add two integers
+    int calculate(int a, int b)
+    {
+        return a + b;
+    }
+
+    // Function to add two floating-point numbers
+    double calculate(double a, double b)
+    {
+        return a * b;
+    }
+
+    // Function to multiply two integers
+    double calculate(int a, double b)
+    {
+        return a - b;
+    }
+
+    // Function to multiply two floating-point numbers
+    float calculate(float a, float b)
+    {
+        return a / b;
+    }
+};
+
+int main()
+{
+    Calculator calc;
+    cout << "Addition:" << calc.calculate(10, 4) << endl;
+    cout << "Subtraction:" << calc.calculate(55, 4.5) << endl;
+    cout << "Multiplication:" << calc.calculate(38.5, 6.6) << endl;
+    cout << "Division:" << calc.calculate(10.5f, 5.5f) << endl;
+}
+
